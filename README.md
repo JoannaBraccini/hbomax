@@ -20,7 +20,7 @@
 - [📦 Temas abordados](#topics)
 - [🏆 Desafio](#challenges)
 - [🌈 Demonstração](#demo)
-- [💻 Autora](#author)
+- [💻 Expert](#author)
 
 <h2 id="features">✨ Features</h2>
 
@@ -32,7 +32,7 @@
 - Rodapé com links importantes
 - UI Responsiva
 
-*As features são visuais, não possuindo integração com nenhuma API. O intuito do projeto é reproduzir a interface do site original, com algumas modificações.*
+_As features são visuais, não possuindo integração com nenhuma API. O intuito do projeto é reproduzir a interface do site original, com algumas modificações._
 
 <h2 id="topics">📦 Temas abordados</h2>
 
@@ -61,79 +61,77 @@ Dentro da branch `template-desafio`, você encontrará na pasta `assets/images` 
 Caso deseje, adicione as variáveis CSS abaixo, que contém todas as cores e gradientes utilizados no projeto:
 
 ```css
-  :root {
-    --primary-color: #020228;
-    --secondary-color: #ff00e5;
-    --tertiary-color: #b535f6;
-    --btn-bg-color-gradient: linear-gradient(
-      45deg,
-      #9b34ef 0%,
-      #490cb0 20%,
-      transparent 50%
-    );
-    --btn-link-bg-color: #fff;
-    --btn-link-color: #000;
-    --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
-    --divider-bg-color: linear-gradient(
-      90deg,
-      #5516ba,
-      rgba(255, 0, 229, 0.5) 80%
-    );
-    --nav-bg-color: rgba(0, 0, 0, 0.3);
-    --text-color: #fff;
-    --link-color: #9e86ff;
-    --form-bg-color: rgba(211, 211, 211, 0.06);
-    --form-field-bg-color: rgba(0, 0, 0, 0.2);
-    --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
-    --form-field-placeholder: rgba(255, 255, 255, 0.7);
-    --form-field-error: rgb(255, 76, 76);
+:root {
+  --primary-color: #020228;
+  --secondary-color: #ff00e5;
+  --tertiary-color: #b535f6;
+  --btn-bg-color-gradient: linear-gradient(
+    45deg,
+    #9b34ef 0%,
+    #490cb0 20%,
+    transparent 50%
+  );
+  --btn-link-bg-color: #fff;
+  --btn-link-color: #000;
+  --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
+  --divider-bg-color: linear-gradient(
+    90deg,
+    #5516ba,
+    rgba(255, 0, 229, 0.5) 80%
+  );
+  --nav-bg-color: rgba(0, 0, 0, 0.3);
+  --text-color: #fff;
+  --link-color: #9e86ff;
+  --form-bg-color: rgba(211, 211, 211, 0.06);
+  --form-field-bg-color: rgba(0, 0, 0, 0.2);
+  --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
+  --form-field-placeholder: rgba(255, 255, 255, 0.7);
+  --form-field-error: rgb(255, 76, 76);
 
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 ```
 
-*A propriedade `scroll-behavior: smooth` irá fazer com que os links que levam para uma outra sessão do site, da mesma página, faça uma transição suave ao realizar a rolagem.*
+_A propriedade `scroll-behavior: smooth` irá fazer com que os links que levam para uma outra sessão do site, da mesma página, faça uma transição suave ao realizar a rolagem._
 
 Para implementar a barra de rolagem personalizada, como no exemplo, adicione na sua folha de estilos o seguinte trecho CSS:
 
 ```css
-  /* Custom Scroll */
+/* Custom Scroll */
 
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
+::-webkit-scrollbar {
+  width: 8px;
+}
 
-  ::-webkit-scrollbar-thumb {
-    background: var(--tertiary-color);
-    border-radius: 10px;
-  }
+::-webkit-scrollbar-thumb {
+  background: var(--tertiary-color);
+  border-radius: 10px;
+}
 
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary-color);
-  }
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
 ```
 
-O resultado final do projeto deve contemplar todas as [features](#features) presentes no <a href="https://micheleambrosio.github.io/hbomax/">resultado final</a>.
+O resultado final do projeto deve contemplar todas as [features](#features) presentes no <a href="https://micheleambrosio.github.io/hbomax/">projeto original</a>.
 
 As fontes utilizadas no projeto foram:
 
 - [Raleway](https://fonts.google.com/specimen/Raleway)
 - [Quicksand](https://fonts.google.com/specimen/Quicksand?query=quicksand)
-  
+
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
 ```
 
-*Para melhor orientação, assista ao vídeo de instruções do desafio, que está disponibilizado no Módulo 3 da Trilha de CSS.*
-
+_Para melhor orientação, assista ao vídeo de instruções do desafio, que está disponibilizado no Módulo 3 da Trilha de CSS._
 
 <h2 id="demo">🌈 Demonstração</h2>
 
-Você pode acessar ao resultado final do projeto [clicando aqui](https://micheleambrosio.github.io/hbomax/).
+Você pode acessar ao resultado final do projeto [clicando aqui](https://joannabraccini.github.io/hbomax/).
 
-
-<h2 id="author">💻 Autora</h2>
+<h2 id="author">💻 Expert</h2>
 <p>
     <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
     <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
@@ -141,6 +139,15 @@ Você pode acessar ao resultado final do projeto [clicando aqui](https://michele
 </p>
 <br/><br/>
 <p>
+<h2>💻 Aluna</h2>
+<p>
+    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/47434139?v=4"/>
+    <p>&nbsp&nbsp&nbspJoanna Braccini<br>
+    &nbsp&nbsp&nbsp&nbsp;<a href="https://github.com/joannabraccini">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/joannabraccini/">LinkedIn</a>&nbsp;</p>
+</p>
+<br/><br/>
+<p>
 
 ---
-⌨️ com ❤️ por [Michele Ambrosio](https://github.com/micheleambrosio) 😊
+
+Feito com ❤️ por [Joanna Braccini](https://linkedin.com/in/joannabraccini) 😊
